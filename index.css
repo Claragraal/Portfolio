@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(58, 58, 87);
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    background-color: rgb(131, 184, 228);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Public Pixel', sans-serif;
+    padding: 20px;
+}
+
+.logo img {
+    width: 50px; /* Adjust the size of your logo as needed */
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navigation li {
+    margin-right: 25px;
+    font-size: small;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero-section {
+    font-family: 'Public Pixel', sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+.hero-section h3 {
+
+    font-size: 10px;
+
+}
+
+.hero-title {
+    font-size: xx-large;
+    margin-bottom: 30px;
+}
+
+.hero-subtitle {
+    font-size: small;
+    margin: 30px;
+}
+
+.about-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content h3 {
+    font-family: 'Public Pixel', sans-serif;
+    font-size: x-large;
+}
+
+.about-content p {
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: 'PixelMono', sans-serif;
+    letter-spacing: 3px;
+                                                
+}
+
+.about-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.about-images img {
+    width: 150px; /* Adjust the size of your images as needed */
+    border-radius: 8px; /* Optional: Add rounded corners to the images */
+}
+
+.portfolio-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.portfolio-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.portfolio-content h3 {
+    font-family: 'Public Pixel', sans-serif;
+    font-size: x-large;
+}
+
+.portfolio-content p {
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: 'PixelMono', sans-serif;
+    letter-spacing: 3px;
+}
+
+.portfolio-images {
+    margin-top: 30px;
+}
+
+.portfolio-images img {
+    width: 300px; /* Adjust the size of your big images as needed */
+    margin-bottom: 20px;
+    border-radius: 8px; /* Optional: Add rounded corners to the images */
+}
+
+.portfolio-models {
+    margin-top: 30px;
+}
+
+.portfolio-models img {
+    width: 300px; /* Adjust the size of your big images as needed */
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px; /* Optional: Add rounded corners to the images */
+}
+
+.small-images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.small-images img {
+    width: 100px; /* Adjust the size of your small images as needed */
+    border-radius: 8px; /* Optional: Add rounded corners to the images */
+}
+
+.small-images-head {
+    display: flex;
+    justify-content: space-around;
+}
+
+.small-images-head img {
+    width: 200px; /* Adjust the size of your small images as needed */
+    border-radius: 8px; /* Optional: Add rounded corners to the images */
+}
+.experience-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.experience-content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'PixelMono', sans-serif;
+    font-size: large;
+}
+
+.experience-content a {
+    color: rgb(131, 164, 234);
+}
+
+.experience-content h3 {
+    font-family: 'Public Pixel', sans-serif;
+    font-size: x-large;
+}
+
+.experience-item {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.experience-item img {
+    width: 200px; /* Adjust the size of your experience images as needed */
+    border-radius: 8px; /* Optional: Add rounded corners to the images */
+}
+
+.experience-item p {
+    font-size: 25px;
+    margin-left: 20px;
+    font-family: 'PixelMono', sans-serif;
+    letter-spacing: 3px;
+    flex-grow: 1;
+}
+
+.contact-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-content h3 {
+    font-family: 'Public Pixel', sans-serif;
+    font-size: x-large;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-list li {
+    font-family: 'PixelMono', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.contact-list li a {
+    color: rgb(131, 164, 234);
+}
+
+.contact-list img {
+    width: 30px; /* Adjust the size of your social media logos as needed */
+    margin-right: 10px;
+    border-radius: 8px; /* Optional: Add rounded corners to the images */
+}
+
+.footer {
+    background-color: rgb(131, 184, 228);
+    text-align: center;
+    padding: 20px;
+}
+
+.footer button {
+    font-family: 'Public Pixel', sans-serif;
+    font-size: medium;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
