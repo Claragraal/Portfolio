@@ -119,6 +119,11 @@ body {
     width: 300px; /* Adjust the size of your big images as needed */
     margin-bottom: 20px;
     border-radius: 8px; /* Optional: Add rounded corners to the images */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.portfolio-images img:hover {
+    transform: scale(2); /* Zoom in by 10% on hover */
 }
 
 .portfolio-models {
