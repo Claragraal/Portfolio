@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv='cache-control' content='no-cache'> 
-    <meta http-equiv='expires' content='0'> 
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
     <meta http-equiv='pragma' content='no-cache'>
     <link href="https://fonts.cdnfonts.com/css/pixelmono" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/public-pixel" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+    <script src="script.js"></script>
     <title>Claragraal - Artist Portfolio</title>
 </head>
+
 <body>
-    <script>
-        function goToTop() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
     <header class="header">
         <div class="logo">
             <img src="img/hi.png" alt="Claragraal's Logo">
@@ -34,7 +31,9 @@
 
     <div class="hero-section">
         <h1 class="hero-title">Claragraal</h1>
-        <h2 class="hero-subtitle">Artist</h2>
+        <div class="switch-button" onclick="toggleRole()"> <!-- Add a new div for the switch button -->
+            <p id="role-text">Artist</p>
+        </div>
 
         <img src="img/me.png" alt="Claragraal's Logo">
         <h3>Art by Harisun Strudios!</h3>
@@ -44,30 +43,23 @@
         <div class="about-content">
             <h3>About Me</h3>
             <p>
-                I'm Clara, an 18 years old French pixel artist/3D model 
-                artist. I'm passionate about drawing and video games, 
-                so I've merged both by creating pixel art game assets! 
+                I'm Clara, an 18 years old French pixel artist/3D model
+                artist. I'm passionate about drawing and video games,
+                so I've merged both by creating pixel art game assets!
                 <br><br>
-                Currently, I'm also learning Java and Web development at
-                university, I can help out but I am nowhere near a professional
-                yet.
+                I started drawing when I was a kid, and quickly got
+                into digital art. At some point, while playing Minecraft,
+                I got into a server staff team while they were making
+                a custom texture pack: That's when I got into pixel art!
+                <br><br>
+                Since then, I worked for a bunch of Minecraft servers and for
+                indie games through Fiverr, BuiltByBit, or simply Discord!
             </p>
         </div>
         <div class="about-images">
             <img src="img/gem1.png" alt="Image 1">
             <img src="img/gem2.png" alt="Image 2">
             <img src="img/gem3.png" alt="Image 3">
-        </div>
-        <div class="about-content">
-            <p>
-                I started drawing when I was a kid, and quickly got
-                into digital art. At some point, while playing Minecraft,
-                I got into a server staff team while they were making
-                a custom texture pack: That's when I got into pixel art!
-                <br><br>
-                Since then, I worked for a bunch of Minecraft servers and for 
-                indie games through Fiverr, BuiltByBit, or simply Discord!
-            </p>
         </div>
     </section>
     <section id="portfolio" class="portfolio-section">
@@ -123,13 +115,13 @@
             </div>
             <p>
                 Those are my main experiences, but I did work on multiple other
-                projects, such as Corleone Online, DraconityMC, CatCraft, 
+                projects, such as Corleone Online, DraconityMC, CatCraft,
                 CubeConoly, etc!
                 <br>
                 Don't hesitate to check <a href="https://www.fiverr.com/claraaubertin">my Fiverr</a>
-                 for reviews of past
+                for reviews of past
                 customers!
-                
+
             </p>
             <!-- Add more experience items as needed -->
         </div>
@@ -144,22 +136,28 @@
                 </li>
                 <li>
                     <img src="img/twitter.png" alt="Twitter Logo">
-                    Twitter:  <a href="https://twitter.com/claragraal"> @Claragraal</a>
+                    Twitter: <a href="https://twitter.com/claragraal"> @Claragraal</a>
                 </li>
                 <li>
                     <img src="img/fiverr.png" alt="Fiverr Logo">
-                    Fiverr:  <a href="https://www.fiverr.com/claraaubertin"> Claragraal</a>
+                    Fiverr: <a href="https://www.fiverr.com/claraaubertin"> Claragraal</a>
                 </li>
                 <li>
                     <img src="img/github.png" alt="Github Logo">
-                    GitHub:  <a href="https://github.com/Claragraal"> Claragraal</a>
+                    GitHub: <a href="https://github.com/Claragraal"> Claragraal</a>
                 </li>
             </ul>
         </div>
+
+        <script id='fiverr-seller-widget-script-11ccd430-1da7-41a9-af3b-83986ea71d19'
+            src='https://widgets.fiverr.com/api/v1/seller/claraaubertin?widget_id=11ccd430-1da7-41a9-af3b-83986ea71d19'
+            data-config='{"category_name":"Graphics \u0026 Design"}' async='true' defer='true'></script>
+
     </section>
-    
+
     <footer class="footer">
         <button onclick="goToTop()">Go back on top!</button>
     </footer>
 </body>
+
 </html>

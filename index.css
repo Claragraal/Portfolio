@@ -1,8 +1,14 @@
+
+
 body {
     margin: 0;
     padding: 0;
     background-color: rgb(58, 58, 87);
     color: rgb(255, 255, 255);
+}
+
+body.developer-mode {
+    background-color: rgb(22, 23, 34); /* Orange color for developer mode */
 }
 
 .header {
@@ -12,6 +18,14 @@ body {
     align-items: center;
     font-family: 'Public Pixel', sans-serif;
     padding: 20px;
+}
+
+.header.developer-mode {
+    background-color: rgb(255, 145, 90); /* Orange color for developer mode */
+}
+
+.footer.developer-mode {
+    background-color: rgb(255, 145, 90); /* Orange color for developer mode */
 }
 
 .logo img {
@@ -247,4 +261,30 @@ body {
     border: none;
     color: white;
     cursor: pointer;
+}
+
+.switch-button {
+    cursor: pointer;
+    padding: 10px 30px;
+    width: 20%;
+    background-color: rgb(131, 164, 234); /* Default background color */
+    border: 2px solid rgb(0, 0, 0); /* Border color */
+    border-radius: 8px; /* Optional: Add rounded corners to the button */
+    transition: background-color 0.3s ease-in-out; /* Add a smooth transition effect for background color */
+    
+    /* Center the button on the screen */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.switch-button:hover {
+    background-color: rgb(100, 130, 200); /* Change background color on hover */
+}
+
+#role-text {
+    font-family: 'Public Pixel', sans-serif;
+    font-size: small;
+    margin: 0;
+    color: white;
 }
