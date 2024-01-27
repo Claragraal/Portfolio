@@ -70,7 +70,7 @@ function toggleRole() {
         portfolioText.textContent = "Explore some of my projects, including school SAE (learning projects)!";
 
         // Update content for all experience items
-        experienceItems[0].innerHTML = "Web developpment: HTML/Flask";
+        experienceItems[0].innerHTML = "Web development: HTML/Flask";
         experienceItems[1].innerHTML = "Web design: CSS/Tailwind/Bootstrap";
         experienceItems[2].innerHTML = "Programming languages: Java/Python/C/C#";
         // Add more items if needed
